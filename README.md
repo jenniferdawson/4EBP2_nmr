@@ -1,0 +1,2 @@
+# 4EBP2_nmr_bioinformatics
+Python scripts used in the paper by Dawson et al., Nature Communications (2020), titled "Non-cooperative 4E-BP2 folding with exchange between eIF4E-binding and binding-incompatible states allows for tuning of cap-dependent translation inhibition".  Copyright: Drs. Jennifer Dawson and Robert Vernon, Department of Molecular Medicine, Hospital for Sick Children, University of Toronto, CANADA
