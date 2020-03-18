@@ -1,0 +1,14 @@
+HOW TO GENERATE A PYMOL SCRIPT TO SET A COLOR GRADIENT BASED ON AN INPUT SET OF VALUES
+
+OS: Linux
+Need: Python, NumPy
+
+./Data_Colorgrd_noiseadj_ThreeColor.py <input file>
+example: ./Data_Colorgrd_noiseadj_ThreeColor.py ssp_phosS65A_4EBP2_CaCb_pH7.4.txt
+Set the colors for the gradient, output name, and the end and midpoints for the gradient in the script
+output: AnalyzedResidue_S65Assp.pml
+
+To run in PyMol:
+In command line: @<pymol script>
+   ex. @AnalyzedResidue_S65Assp.pml
+

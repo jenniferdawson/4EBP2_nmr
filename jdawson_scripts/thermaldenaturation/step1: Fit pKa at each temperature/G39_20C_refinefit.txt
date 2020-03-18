@@ -1,0 +1,6 @@
+Two state pH titration refined fit:
+pKa = 5.184037 error = 0.020099 energy = 1.829094 error = 0.627153 kcal/mol
+w1h = 11.112249 error = 0.006424 ppm   w1n = 109.575599 error 0.014386 ppm
+w2h = 9.668214 error = 0.008606 ppm   w2n = 105.514635 error 0.033272 ppm
+chi sq = 0.035196
+

@@ -1,0 +1,6 @@
+Thermal denaturation parameters:
+DG0 = 1.456484 error = 0.229880 kcal/mol
+DS0 = 0.033901 error = 0.017112 kcal/mol
+DCp = 0.008172 error = 0.270369 kcal/mol
+chi sq = 0.225097
+

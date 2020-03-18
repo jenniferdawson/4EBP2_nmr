@@ -1,0 +1,22 @@
+HOW TO RUN THERMAL DENATURATION DATA
+
+OS: Linux
+Need: Python, NumPy, SciPy
+
+From example: For each residue
+Step 1: pH titration data at each temperature
+./pHtitr_2state_refine_indivnucl.py <input file> <residue name> <temperature in Celsius)
+example: ./pHtitr_2state_refine_indivnucl.py G39_20C.txt G39 20
+outputs: Fitted pKa, chemical shift values, chi sq
+
+Step2: Convert pKa(T) to DeltaG(T) values
+Used gnumeric spreadsheet and propagation of error
+See Supplemental Information for equations and instructions
+
+Output: DG(T) values
+'G39_DG_simult_refine.txt'
+
+Step 3: Fit DG0, DS0, DeltaCp values
+./energy curvefit.py <input file with T and DG(T)> <residue name>
+example: ./energy curvefit.py G39_DG_simult_refine.txt G39
+output: Fitted DG), DS0, DCP, figure

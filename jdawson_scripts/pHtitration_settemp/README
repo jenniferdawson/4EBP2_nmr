@@ -1,0 +1,11 @@
+HOW TO RUN pH TITRATION DATA
+
+OS: Linux
+Need: Python, NumPy, SciPy
+
+From example: For each residue
+Step 1: pH titration data at each temperature
+./pHtitr_2state_refine_indivnucl.py <input file> <residue name> <temperature in Celsius)
+example: ./pHtitr_2state_refine_indivnucl.py G39_20C.txt G39 20
+outputs: Fitted pKa, chemical shift values, chi sq
+
